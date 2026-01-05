@@ -25,7 +25,7 @@ st.set_page_config(
     initial_sidebar_state="expanded" # Expandida para mostrar as métricas
 )
 
-# --- FUNÇÕES DE BACKEND (MANTIDAS INTACTAS) ---
+# --- FUNÇÕES DE BACKEND ---
 @st.cache_data(ttl=60)
 def carregar_metricas():
     stats = {
