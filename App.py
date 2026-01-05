@@ -98,10 +98,6 @@ if "messages" not in st.session_state:
 metricas = carregar_metricas()
 qa_chain, status_msg = setup_rag()
 
-# ==========================================
-#              NOVA INTERFACE
-# ==========================================
-
 # --- SIDEBAR (MÉTRICAS) ---
 with st.sidebar:
     st.title("📊 Monitoramento")
